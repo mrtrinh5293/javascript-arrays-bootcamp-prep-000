@@ -15,3 +15,7 @@ function addElementToEndOfArray(array, element){
   
   return [...array, element];
 }
+
+function accessElementInArray(){
+  var a = 
+}
