@@ -28,18 +28,18 @@ function destructivelyRemoveElementFromBeginningOfArray(array){
   return array.slice(1);
 }
 
-function removeElementFromBeginningOfArray(array){
-  array.shift();
-  return array
-}
+// function removeElementFromBeginningOfArray(array){
+//   array.shift();
+//   return array
+// }
 
-function removeElementFromEndOfArray(array){
-  array.pop();
-  return array
-}
+// function destructivelyRemoveElementFromEndOfArray(array){
+//   array.pop();
+//   return array
+// }
 
-function destructivelyRemoveElementFromEndOfArray(array){
-  array.slice(array.lenght-1)
-  return array
-}
+// function removeElementFromEndOfArray(array){
+//   array.slice(array.lenght-1)
+//   return array
+// }
 
